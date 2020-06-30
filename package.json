@@ -1,0 +1,23 @@
+{
+  "name": "getting-started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niconaranjo/typescript.git"
+  },
+  "author": "Nicolas Naranjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niconaranjo/typescript/issues"
+  },
+  "homepage": "https://github.com/niconaranjo/typescript#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
