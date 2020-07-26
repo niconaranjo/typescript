@@ -1,4 +1,4 @@
-function combine(
+function combineLiteral(
   input1: number | string,
   input2: number | string,
   resultConversion: "as-number" | "as-text"
@@ -12,4 +12,4 @@ function combine(
   return result;
 }
 
-console.log(combine(1, "hello", "as-text"));
+console.log(combineLiteral(1, "hello", "as-text"));

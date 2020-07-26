@@ -1,9 +1,9 @@
-function add(
+function addBaiscs(
   n1: number,
   n2: number,
   showResult: boolean,
   phrase: string
-): number {
+) {
   const result = n1 + n2;
 
   if (showResult) {
@@ -18,4 +18,4 @@ const number2 = 6.3;
 const printResult = true;
 const resultPhrase = "Result is: ";
 
-add(1, 2, printResult, resultPhrase);
+addBaiscs(1, 2, printResult, resultPhrase);

@@ -1,1 +1,0 @@
-// lets try some files from the getting started folder

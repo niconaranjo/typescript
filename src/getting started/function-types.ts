@@ -1,9 +1,9 @@
 
-function add(n1:number, n2:number):number {
+function addFunction(n1:number, n2:number):number {
   return n1 + n2;
 }
 
-function printResult(num: number): void {
+function printResultFunction(num: number): void {
   console.log('Result: ' + num);
 }
 
@@ -13,18 +13,18 @@ function addAndHandle(n1: number, n2: number, cb: (num:number) => void) {
   cb(result);
 }
 
-printResult(add(1,2));
+printResultFunction(addFunction(1,2));
 
 // set a function type
 
 let printValues: Function;
-printValues = printResult;
+printValues = printResultFunction;
 printValues(2)
 
 //function type defined
 let combineValues: (n1:number, n2:number) => number;
 
-combineValues = add;
+combineValues = addFunction;
 
 console.log(combineValues(2,3))
 

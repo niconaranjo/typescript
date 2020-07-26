@@ -1,7 +1,7 @@
 type Combinable = number | string;
 type ConversionText = "as-number" | "as-text";
 
-function combine(
+function combineAlias(
   input1: Combinable,
   input2: Combinable,
   resultConversion: ConversionText
@@ -18,7 +18,7 @@ function combine(
   return result;
 }
 
-console.log(combine(1, "hello", "as-text"));
+console.log(combineAlias(1, "hello", "as-text"));
 
 // example
 
