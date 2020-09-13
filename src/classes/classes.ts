@@ -33,7 +33,7 @@ class ITDepartment extends Department {
 
 class AccountingDepartment extends Department {
   private lastReport: string;
-  
+
   constructor(id: number, private reports: string[]) {
     super(id, 'Accounting');
     this.lastReport = reports[0];
