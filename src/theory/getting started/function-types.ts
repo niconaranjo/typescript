@@ -32,7 +32,7 @@ addAndHandle(10, 20, (num)=> console.log(num) );
 
 function sendRequest(data: string, cb: (response: any) => void) {
   // ... sending a request with "data"
-  return cb({data: 'Hi there!'});
+  return cb({data: data});
 }
  
 sendRequest('Send this!', (response) => { 

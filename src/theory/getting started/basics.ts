@@ -3,7 +3,7 @@ function addBaiscs(
   n2: number,
   showResult: boolean,
   phrase: string
-) {
+): number | void {
   const result = n1 + n2;
 
   if (showResult) {

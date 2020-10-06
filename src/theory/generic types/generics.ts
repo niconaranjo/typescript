@@ -19,6 +19,10 @@ const promise: Promise<string> = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve("This is solved");
   }, 200);
+
+  setTimeout( () => {
+    reject('rejected');
+  }, 200)
 });
 
 promise.then((data) => {
@@ -40,6 +44,10 @@ const promisedObject: Promise<objectResponse> = new Promise(
       };
       resolve(objectico);
     }, 200);
+
+    setTimeout( () => {
+      reject('rejected');
+    }, 200)
   }
 );
 
